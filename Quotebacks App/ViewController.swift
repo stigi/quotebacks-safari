@@ -9,7 +9,7 @@ import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "is.ullrich.Quotebacks---quote-the-web.Extension"
+let extensionBundleIdentifier = "is.ullrich.quotebacks.extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
