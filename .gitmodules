@@ -1,3 +1,4 @@
 [submodule "quotebacks"]
 	path = quotebacks
-	url = https://github.com/Blogger-Peer-Review/quotebacks
+	url = https://github.com/stigi/quotebacks.git
+	branch = safari
