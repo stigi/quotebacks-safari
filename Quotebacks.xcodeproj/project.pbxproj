@@ -15,7 +15,7 @@
 		9422F1DB2BA5FD7B003235EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422F1DA2BA5FD7B003235EE /* ViewController.swift */; };
 		9422F1DE2BA5FD7B003235EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1DC2BA5FD7B003235EE /* Main.storyboard */; };
 		9422F1E02BA5FD7C003235EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1DF2BA5FD7C003235EE /* Assets.xcassets */; };
-		9422F1E92BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9422F1E92BA5FD7C003235EE /* Quotebacks Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9422F1E82BA5FD7C003235EE /* Quotebacks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9422F1EE2BA5FD7C003235EE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422F1ED2BA5FD7C003235EE /* SafariWebExtensionHandler.swift */; };
 		9422F2132BA5FD7C003235EE /* rangy-core.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FB2BA5FD7C003235EE /* rangy-core.js */; };
 		9422F2142BA5FD7C003235EE /* fastsearch.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FC2BA5FD7C003235EE /* fastsearch.js */; };
@@ -60,7 +60,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9422F1E92BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex in Embed Foundation Extensions */,
+				9422F1E92BA5FD7C003235EE /* Quotebacks Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9422F1CB2BA5FD7B003235EE /* Quotebacks - quote the web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quotebacks - quote the web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422F1CB2BA5FD7B003235EE /* Quotebacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotebacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422F1CE2BA5FD7B003235EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9422F1D22BA5FD7B003235EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		9422F1D42BA5FD7B003235EE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		9422F1DF2BA5FD7C003235EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9422F1E12BA5FD7C003235EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9422F1E32BA5FD7C003235EE /* Quotebacks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quotebacks.entitlements; sourceTree = "<group>"; };
-		9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quotebacks - quote the web Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422F1E82BA5FD7C003235EE /* Quotebacks Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quotebacks Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422F1ED2BA5FD7C003235EE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		9422F1EF2BA5FD7C003235EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9422F1F02BA5FD7C003235EE /* quotebacks-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "quotebacks-extension.entitlements"; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		9422F1CC2BA5FD7B003235EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9422F1CB2BA5FD7B003235EE /* Quotebacks - quote the web.app */,
-				9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */,
+				9422F1CB2BA5FD7B003235EE /* Quotebacks.app */,
+				9422F1E82BA5FD7C003235EE /* Quotebacks Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9422F1CA2BA5FD7B003235EE /* Quotebacks - quote the web */ = {
+		9422F1CA2BA5FD7B003235EE /* Quotebacks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9422F1F72BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web" */;
+			buildConfigurationList = 9422F1F72BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks" */;
 			buildPhases = (
 				9422F1C72BA5FD7B003235EE /* Sources */,
 				9422F1C82BA5FD7B003235EE /* Frameworks */,
@@ -230,14 +230,14 @@
 			dependencies = (
 				9422F1EB2BA5FD7C003235EE /* PBXTargetDependency */,
 			);
-			name = "Quotebacks - quote the web";
+			name = Quotebacks;
 			productName = "Quotebacks - quote the web";
-			productReference = 9422F1CB2BA5FD7B003235EE /* Quotebacks - quote the web.app */;
+			productReference = 9422F1CB2BA5FD7B003235EE /* Quotebacks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9422F1E72BA5FD7C003235EE /* Quotebacks - quote the web Extension */ = {
+		9422F1E72BA5FD7C003235EE /* Quotebacks Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9422F1F32BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web Extension" */;
+			buildConfigurationList = 9422F1F32BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks Extension" */;
 			buildPhases = (
 				9422F1E42BA5FD7C003235EE /* Sources */,
 				9422F1E52BA5FD7C003235EE /* Frameworks */,
@@ -247,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = "Quotebacks - quote the web Extension";
+			name = "Quotebacks Extension";
 			productName = "Quotebacks - quote the web Extension";
-			productReference = 9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */;
+			productReference = 9422F1E82BA5FD7C003235EE /* Quotebacks Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -283,8 +283,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9422F1CA2BA5FD7B003235EE /* Quotebacks - quote the web */,
-				9422F1E72BA5FD7C003235EE /* Quotebacks - quote the web Extension */,
+				9422F1CA2BA5FD7B003235EE /* Quotebacks */,
+				9422F1E72BA5FD7C003235EE /* Quotebacks Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -359,7 +359,7 @@
 /* Begin PBXTargetDependency section */
 		9422F1EB2BA5FD7C003235EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9422F1E72BA5FD7C003235EE /* Quotebacks - quote the web Extension */;
+			target = 9422F1E72BA5FD7C003235EE /* Quotebacks Extension */;
 			targetProxy = 9422F1EA2BA5FD7C003235EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -646,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9422F1F32BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web Extension" */ = {
+		9422F1F32BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9422F1F42BA5FD7C003235EE /* Debug */,
@@ -655,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9422F1F72BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web" */ = {
+		9422F1F72BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9422F1F82BA5FD7C003235EE /* Debug */,
