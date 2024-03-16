@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9422F1CF2BA5FD7B003235EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422F1CE2BA5FD7B003235EE /* AppDelegate.swift */; };
+		9422F1D32BA5FD7B003235EE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1D12BA5FD7B003235EE /* Main.html */; };
+		9422F1D52BA5FD7B003235EE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1D42BA5FD7B003235EE /* Icon.png */; };
+		9422F1D72BA5FD7B003235EE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1D62BA5FD7B003235EE /* Style.css */; };
+		9422F1D92BA5FD7B003235EE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1D82BA5FD7B003235EE /* Script.js */; };
+		9422F1DB2BA5FD7B003235EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422F1DA2BA5FD7B003235EE /* ViewController.swift */; };
+		9422F1DE2BA5FD7B003235EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1DC2BA5FD7B003235EE /* Main.storyboard */; };
+		9422F1E02BA5FD7C003235EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1DF2BA5FD7C003235EE /* Assets.xcassets */; };
+		9422F1E92BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9422F1EE2BA5FD7C003235EE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422F1ED2BA5FD7C003235EE /* SafariWebExtensionHandler.swift */; };
+		9422F2132BA5FD7C003235EE /* rangy-core.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FB2BA5FD7C003235EE /* rangy-core.js */; };
+		9422F2142BA5FD7C003235EE /* fastsearch.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FC2BA5FD7C003235EE /* fastsearch.js */; };
+		9422F2152BA5FD7C003235EE /* rangy-classapplier.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FD2BA5FD7C003235EE /* rangy-classapplier.js */; };
+		9422F2162BA5FD7C003235EE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FE2BA5FD7C003235EE /* icon.png */; };
+		9422F2172BA5FD7C003235EE /* newcontent.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F1FF2BA5FD7C003235EE /* newcontent.js */; };
+		9422F2182BA5FD7C003235EE /* quoteback-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2002BA5FD7C003235EE /* quoteback-preview.png */; };
+		9422F2192BA5FD7C003235EE /* quoteback.sublime-workspace in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2012BA5FD7C003235EE /* quoteback.sublime-workspace */; };
+		9422F21A2BA5FD7C003235EE /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2022BA5FD7C003235EE /* background.js */; };
+		9422F21B2BA5FD7C003235EE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2032BA5FD7C003235EE /* images */; };
+		9422F21C2BA5FD7C003235EE /* rangy-highlighter.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2042BA5FD7C003235EE /* rangy-highlighter.js */; };
+		9422F21D2BA5FD7C003235EE /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2052BA5FD7C003235EE /* options.js */; };
+		9422F21E2BA5FD7C003235EE /* jquery-3.5.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2062BA5FD7C003235EE /* jquery-3.5.1.min.js */; };
+		9422F21F2BA5FD7C003235EE /* quoteback-internal.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2072BA5FD7C003235EE /* quoteback-internal.js */; };
+		9422F2202BA5FD7C003235EE /* readability.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2082BA5FD7C003235EE /* readability.js */; };
+		9422F2212BA5FD7C003235EE /* turndown.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2092BA5FD7C003235EE /* turndown.js */; };
+		9422F2222BA5FD7C003235EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9422F20A2BA5FD7C003235EE /* README.md */; };
+		9422F2232BA5FD7C003235EE /* styles in Resources */ = {isa = PBXBuildFile; fileRef = 9422F20B2BA5FD7C003235EE /* styles */; };
+		9422F2242BA5FD7C003235EE /* webcomponents-sd-ce.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F20C2BA5FD7C003235EE /* webcomponents-sd-ce.js */; };
+		9422F2252BA5FD7C003235EE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9422F20D2BA5FD7C003235EE /* manifest.json */; };
+		9422F2262BA5FD7C003235EE /* fuse.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F20E2BA5FD7C003235EE /* fuse.js */; };
+		9422F2272BA5FD7C003235EE /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9422F20F2BA5FD7C003235EE /* options.html */; };
+		9422F2282BA5FD7C003235EE /* quotestyle.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2102BA5FD7C003235EE /* quotestyle.js */; };
+		9422F2292BA5FD7C003235EE /* html2screenshot.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2112BA5FD7C003235EE /* html2screenshot.js */; };
+		9422F22A2BA5FD7C003235EE /* quoteback.js in Resources */ = {isa = PBXBuildFile; fileRef = 9422F2122BA5FD7C003235EE /* quoteback.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9422F1EA2BA5FD7C003235EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9422F1C32BA5FD7B003235EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9422F1E72BA5FD7C003235EE;
+			remoteInfo = "Quotebacks - quote the web Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9422F1F62BA5FD7C003235EE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9422F1E92BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9422F1CB2BA5FD7B003235EE /* Quotebacks - quote the web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quotebacks - quote the web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422F1CE2BA5FD7B003235EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9422F1D22BA5FD7B003235EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9422F1D42BA5FD7B003235EE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9422F1D62BA5FD7B003235EE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9422F1D82BA5FD7B003235EE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9422F1DA2BA5FD7B003235EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9422F1DD2BA5FD7B003235EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9422F1DF2BA5FD7C003235EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9422F1E12BA5FD7C003235EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9422F1E22BA5FD7C003235EE /* Quotebacks___quote_the_web.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quotebacks___quote_the_web.entitlements"; sourceTree = "<group>"; };
+		9422F1E32BA5FD7C003235EE /* Quotebacks - quote the web.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quotebacks - quote the web.entitlements"; sourceTree = "<group>"; };
+		9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quotebacks - quote the web Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422F1ED2BA5FD7C003235EE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9422F1EF2BA5FD7C003235EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9422F1F02BA5FD7C003235EE /* Quotebacks___quote_the_web_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quotebacks___quote_the_web_Extension.entitlements"; sourceTree = "<group>"; };
+		9422F1FB2BA5FD7C003235EE /* rangy-core.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "rangy-core.js"; path = "../../quotebacks/rangy-core.js"; sourceTree = "<group>"; };
+		9422F1FC2BA5FD7C003235EE /* fastsearch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fastsearch.js; path = ../../quotebacks/fastsearch.js; sourceTree = "<group>"; };
+		9422F1FD2BA5FD7C003235EE /* rangy-classapplier.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "rangy-classapplier.js"; path = "../../quotebacks/rangy-classapplier.js"; sourceTree = "<group>"; };
+		9422F1FE2BA5FD7C003235EE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../quotebacks/icon.png; sourceTree = "<group>"; };
+		9422F1FF2BA5FD7C003235EE /* newcontent.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = newcontent.js; path = ../../quotebacks/newcontent.js; sourceTree = "<group>"; };
+		9422F2002BA5FD7C003235EE /* quoteback-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "quoteback-preview.png"; path = "../../quotebacks/quoteback-preview.png"; sourceTree = "<group>"; };
+		9422F2012BA5FD7C003235EE /* quoteback.sublime-workspace */ = {isa = PBXFileReference; lastKnownFileType = text; name = "quoteback.sublime-workspace"; path = "../../quotebacks/quoteback.sublime-workspace"; sourceTree = "<group>"; };
+		9422F2022BA5FD7C003235EE /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../quotebacks/background.js; sourceTree = "<group>"; };
+		9422F2032BA5FD7C003235EE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../quotebacks/images; sourceTree = "<group>"; };
+		9422F2042BA5FD7C003235EE /* rangy-highlighter.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "rangy-highlighter.js"; path = "../../quotebacks/rangy-highlighter.js"; sourceTree = "<group>"; };
+		9422F2052BA5FD7C003235EE /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../quotebacks/options.js; sourceTree = "<group>"; };
+		9422F2062BA5FD7C003235EE /* jquery-3.5.1.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "jquery-3.5.1.min.js"; path = "../../quotebacks/jquery-3.5.1.min.js"; sourceTree = "<group>"; };
+		9422F2072BA5FD7C003235EE /* quoteback-internal.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "quoteback-internal.js"; path = "../../quotebacks/quoteback-internal.js"; sourceTree = "<group>"; };
+		9422F2082BA5FD7C003235EE /* readability.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = readability.js; path = ../../quotebacks/readability.js; sourceTree = "<group>"; };
+		9422F2092BA5FD7C003235EE /* turndown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = turndown.js; path = ../../quotebacks/turndown.js; sourceTree = "<group>"; };
+		9422F20A2BA5FD7C003235EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../quotebacks/README.md; sourceTree = "<group>"; };
+		9422F20B2BA5FD7C003235EE /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = styles; path = ../../quotebacks/styles; sourceTree = "<group>"; };
+		9422F20C2BA5FD7C003235EE /* webcomponents-sd-ce.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "webcomponents-sd-ce.js"; path = "../../quotebacks/webcomponents-sd-ce.js"; sourceTree = "<group>"; };
+		9422F20D2BA5FD7C003235EE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../quotebacks/manifest.json; sourceTree = "<group>"; };
+		9422F20E2BA5FD7C003235EE /* fuse.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fuse.js; path = ../../quotebacks/fuse.js; sourceTree = "<group>"; };
+		9422F20F2BA5FD7C003235EE /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../quotebacks/options.html; sourceTree = "<group>"; };
+		9422F2102BA5FD7C003235EE /* quotestyle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = quotestyle.js; path = ../../quotebacks/quotestyle.js; sourceTree = "<group>"; };
+		9422F2112BA5FD7C003235EE /* html2screenshot.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = html2screenshot.js; path = ../../quotebacks/html2screenshot.js; sourceTree = "<group>"; };
+		9422F2122BA5FD7C003235EE /* quoteback.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = quoteback.js; path = ../../quotebacks/quoteback.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9422F1C82BA5FD7B003235EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9422F1E52BA5FD7C003235EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9422F1C22BA5FD7B003235EE = {
+			isa = PBXGroup;
+			children = (
+				9422F1CD2BA5FD7B003235EE /* Quotebacks - quote the web */,
+				9422F1EC2BA5FD7C003235EE /* Quotebacks - quote the web Extension */,
+				9422F1CC2BA5FD7B003235EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9422F1CC2BA5FD7B003235EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9422F1CB2BA5FD7B003235EE /* Quotebacks - quote the web.app */,
+				9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9422F1CD2BA5FD7B003235EE /* Quotebacks - quote the web */ = {
+			isa = PBXGroup;
+			children = (
+				9422F1CE2BA5FD7B003235EE /* AppDelegate.swift */,
+				9422F1DA2BA5FD7B003235EE /* ViewController.swift */,
+				9422F1DC2BA5FD7B003235EE /* Main.storyboard */,
+				9422F1DF2BA5FD7C003235EE /* Assets.xcassets */,
+				9422F1E12BA5FD7C003235EE /* Info.plist */,
+				9422F1E22BA5FD7C003235EE /* Quotebacks___quote_the_web.entitlements */,
+				9422F1E32BA5FD7C003235EE /* Quotebacks - quote the web.entitlements */,
+				9422F1D02BA5FD7B003235EE /* Resources */,
+			);
+			path = "Quotebacks - quote the web";
+			sourceTree = "<group>";
+		};
+		9422F1D02BA5FD7B003235EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9422F1D12BA5FD7B003235EE /* Main.html */,
+				9422F1D42BA5FD7B003235EE /* Icon.png */,
+				9422F1D62BA5FD7B003235EE /* Style.css */,
+				9422F1D82BA5FD7B003235EE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9422F1EC2BA5FD7C003235EE /* Quotebacks - quote the web Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9422F1FA2BA5FD7C003235EE /* Resources */,
+				9422F1ED2BA5FD7C003235EE /* SafariWebExtensionHandler.swift */,
+				9422F1EF2BA5FD7C003235EE /* Info.plist */,
+				9422F1F02BA5FD7C003235EE /* Quotebacks___quote_the_web_Extension.entitlements */,
+			);
+			path = "Quotebacks - quote the web Extension";
+			sourceTree = "<group>";
+		};
+		9422F1FA2BA5FD7C003235EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9422F1FB2BA5FD7C003235EE /* rangy-core.js */,
+				9422F1FC2BA5FD7C003235EE /* fastsearch.js */,
+				9422F1FD2BA5FD7C003235EE /* rangy-classapplier.js */,
+				9422F1FE2BA5FD7C003235EE /* icon.png */,
+				9422F1FF2BA5FD7C003235EE /* newcontent.js */,
+				9422F2002BA5FD7C003235EE /* quoteback-preview.png */,
+				9422F2012BA5FD7C003235EE /* quoteback.sublime-workspace */,
+				9422F2022BA5FD7C003235EE /* background.js */,
+				9422F2032BA5FD7C003235EE /* images */,
+				9422F2042BA5FD7C003235EE /* rangy-highlighter.js */,
+				9422F2052BA5FD7C003235EE /* options.js */,
+				9422F2062BA5FD7C003235EE /* jquery-3.5.1.min.js */,
+				9422F2072BA5FD7C003235EE /* quoteback-internal.js */,
+				9422F2082BA5FD7C003235EE /* readability.js */,
+				9422F2092BA5FD7C003235EE /* turndown.js */,
+				9422F20A2BA5FD7C003235EE /* README.md */,
+				9422F20B2BA5FD7C003235EE /* styles */,
+				9422F20C2BA5FD7C003235EE /* webcomponents-sd-ce.js */,
+				9422F20D2BA5FD7C003235EE /* manifest.json */,
+				9422F20E2BA5FD7C003235EE /* fuse.js */,
+				9422F20F2BA5FD7C003235EE /* options.html */,
+				9422F2102BA5FD7C003235EE /* quotestyle.js */,
+				9422F2112BA5FD7C003235EE /* html2screenshot.js */,
+				9422F2122BA5FD7C003235EE /* quoteback.js */,
+			);
+			name = Resources;
+			path = "Quotebacks - quote the web Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9422F1CA2BA5FD7B003235EE /* Quotebacks - quote the web */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9422F1F72BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web" */;
+			buildPhases = (
+				9422F1C72BA5FD7B003235EE /* Sources */,
+				9422F1C82BA5FD7B003235EE /* Frameworks */,
+				9422F1C92BA5FD7B003235EE /* Resources */,
+				9422F1F62BA5FD7C003235EE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9422F1EB2BA5FD7C003235EE /* PBXTargetDependency */,
+			);
+			name = "Quotebacks - quote the web";
+			productName = "Quotebacks - quote the web";
+			productReference = 9422F1CB2BA5FD7B003235EE /* Quotebacks - quote the web.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9422F1E72BA5FD7C003235EE /* Quotebacks - quote the web Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9422F1F32BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web Extension" */;
+			buildPhases = (
+				9422F1E42BA5FD7C003235EE /* Sources */,
+				9422F1E52BA5FD7C003235EE /* Frameworks */,
+				9422F1E62BA5FD7C003235EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quotebacks - quote the web Extension";
+			productName = "Quotebacks - quote the web Extension";
+			productReference = 9422F1E82BA5FD7C003235EE /* Quotebacks - quote the web Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9422F1C32BA5FD7B003235EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9422F1CA2BA5FD7B003235EE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9422F1E72BA5FD7C003235EE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 9422F1C62BA5FD7B003235EE /* Build configuration list for PBXProject "Quotebacks - quote the web" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9422F1C22BA5FD7B003235EE;
+			productRefGroup = 9422F1CC2BA5FD7B003235EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9422F1CA2BA5FD7B003235EE /* Quotebacks - quote the web */,
+				9422F1E72BA5FD7C003235EE /* Quotebacks - quote the web Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9422F1C92BA5FD7B003235EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422F1D52BA5FD7B003235EE /* Icon.png in Resources */,
+				9422F1DE2BA5FD7B003235EE /* Main.storyboard in Resources */,
+				9422F1D92BA5FD7B003235EE /* Script.js in Resources */,
+				9422F1D32BA5FD7B003235EE /* Main.html in Resources */,
+				9422F1E02BA5FD7C003235EE /* Assets.xcassets in Resources */,
+				9422F1D72BA5FD7B003235EE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9422F1E62BA5FD7C003235EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422F21C2BA5FD7C003235EE /* rangy-highlighter.js in Resources */,
+				9422F21F2BA5FD7C003235EE /* quoteback-internal.js in Resources */,
+				9422F2292BA5FD7C003235EE /* html2screenshot.js in Resources */,
+				9422F21B2BA5FD7C003235EE /* images in Resources */,
+				9422F21E2BA5FD7C003235EE /* jquery-3.5.1.min.js in Resources */,
+				9422F21A2BA5FD7C003235EE /* background.js in Resources */,
+				9422F21D2BA5FD7C003235EE /* options.js in Resources */,
+				9422F2252BA5FD7C003235EE /* manifest.json in Resources */,
+				9422F2222BA5FD7C003235EE /* README.md in Resources */,
+				9422F2172BA5FD7C003235EE /* newcontent.js in Resources */,
+				9422F2262BA5FD7C003235EE /* fuse.js in Resources */,
+				9422F2202BA5FD7C003235EE /* readability.js in Resources */,
+				9422F2232BA5FD7C003235EE /* styles in Resources */,
+				9422F2162BA5FD7C003235EE /* icon.png in Resources */,
+				9422F2142BA5FD7C003235EE /* fastsearch.js in Resources */,
+				9422F2272BA5FD7C003235EE /* options.html in Resources */,
+				9422F2152BA5FD7C003235EE /* rangy-classapplier.js in Resources */,
+				9422F2182BA5FD7C003235EE /* quoteback-preview.png in Resources */,
+				9422F2282BA5FD7C003235EE /* quotestyle.js in Resources */,
+				9422F2192BA5FD7C003235EE /* quoteback.sublime-workspace in Resources */,
+				9422F2132BA5FD7C003235EE /* rangy-core.js in Resources */,
+				9422F2242BA5FD7C003235EE /* webcomponents-sd-ce.js in Resources */,
+				9422F22A2BA5FD7C003235EE /* quoteback.js in Resources */,
+				9422F2212BA5FD7C003235EE /* turndown.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9422F1C72BA5FD7B003235EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422F1DB2BA5FD7B003235EE /* ViewController.swift in Sources */,
+				9422F1CF2BA5FD7B003235EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9422F1E42BA5FD7C003235EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422F1EE2BA5FD7C003235EE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9422F1EB2BA5FD7C003235EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9422F1E72BA5FD7C003235EE /* Quotebacks - quote the web Extension */;
+			targetProxy = 9422F1EA2BA5FD7C003235EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9422F1D12BA5FD7B003235EE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9422F1D22BA5FD7B003235EE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9422F1DC2BA5FD7B003235EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9422F1DD2BA5FD7B003235EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9422F1F12BA5FD7C003235EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9422F1F22BA5FD7C003235EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9422F1F42BA5FD7C003235EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quotebacks - quote the web Extension/Quotebacks___quote_the_web_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quotebacks - quote the web Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quotebacks - quote the web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "is.ullrich.Quotebacks---quote-the-web.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9422F1F52BA5FD7C003235EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quotebacks - quote the web Extension/Quotebacks___quote_the_web_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quotebacks - quote the web Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quotebacks - quote the web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "is.ullrich.Quotebacks---quote-the-web.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9422F1F82BA5FD7C003235EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quotebacks - quote the web/Quotebacks - quote the web.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quotebacks - quote the web/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quotebacks - quote the web";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "is.ullrich.Quotebacks---quote-the-web";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9422F1F92BA5FD7C003235EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quotebacks - quote the web/Quotebacks - quote the web.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quotebacks - quote the web/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quotebacks - quote the web";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "is.ullrich.Quotebacks---quote-the-web";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9422F1C62BA5FD7B003235EE /* Build configuration list for PBXProject "Quotebacks - quote the web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422F1F12BA5FD7C003235EE /* Debug */,
+				9422F1F22BA5FD7C003235EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9422F1F32BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422F1F42BA5FD7C003235EE /* Debug */,
+				9422F1F52BA5FD7C003235EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9422F1F72BA5FD7C003235EE /* Build configuration list for PBXNativeTarget "Quotebacks - quote the web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422F1F82BA5FD7C003235EE /* Debug */,
+				9422F1F92BA5FD7C003235EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9422F1C32BA5FD7B003235EE /* Project object */;
+}
