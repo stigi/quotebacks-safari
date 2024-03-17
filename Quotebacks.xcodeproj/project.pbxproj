@@ -508,6 +508,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Quotebacks Extension/quotebacks-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEVELOPMENT_TEAM = G8GT3PVSGR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Quotebacks Extension/Info.plist";
@@ -538,6 +539,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Quotebacks Extension/quotebacks-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEVELOPMENT_TEAM = G8GT3PVSGR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Quotebacks Extension/Info.plist";
@@ -572,6 +574,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEVELOPMENT_TEAM = G8GT3PVSGR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Quotebacks App/Info.plist";
@@ -608,6 +611,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEVELOPMENT_TEAM = G8GT3PVSGR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Quotebacks App/Info.plist";
